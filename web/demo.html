@@ -1,0 +1,16 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LoL Overlay · 試験デモ</title><link rel="stylesheet" href="/demo.css"><script src="/demo.js" defer></script></head>
+<body><header><div><span class="eyebrow">BROADCAST SHOWCASE</span><h1>AZURE FOX <span>vs</span> CRIMSON OWL</h1></div><span class="demo-badge">試験モード · 架空データ</span></header>
+<main><div class="showcase" id="showcase"><div class="demo-backdrop"><div class="arena-grid"></div><div class="versus"><small>EXHIBITION MATCH</small><strong><span>AF</span> / <span>CO</span></strong><p>SUMMONER'S RIFT</p><small>背景はデモ用の図形です · 実ゲーム映像ではありません</small></div></div><iframe id="demo-output" src="/overlay?preview=1&amp;art=1" title="試験デモの配信画面"></iframe></div>
+<div class="scene-info"><span id="scene-number">01 / 04</span><strong id="scene-label">BAN / PICK</strong><span id="playback-status">手動操作</span></div><div class="progress-track"><div id="scene-progress"></div></div><div class="show-controls"><div class="scenes" aria-label="デモシーン"><button disabled data-needs-data data-scene="draft">BAN / PICK</button><button disabled data-needs-data data-scene="game">試合中</button><button disabled data-needs-data data-scene="result">試合結果</button><button disabled data-needs-data data-scene="cover">中断</button></div><div class="actions"><button disabled data-needs-data id="demo-effect">ドラゴン獲得演出</button><button disabled data-needs-data id="demo-auto" aria-pressed="false">▶ 自動上映</button><button id="demo-fullscreen">全画面</button></div></div>
+<p class="keyboard-hint">SPACE 自動上映 / 停止　 ·　 1–4 シーン切替　 ·　 F 全画面　 ·　 ESC 全画面を終了</p><p id="demo-status" role="status">試験データを読み込んでいます…</p>
+<section class="details" aria-labelledby="art-title">
+  <div>
+    <h2 id="art-title">素材の差し替え</h2>
+    <p>1920×1080のPNGを <code>assets/overlay-art/</code> に保存して「素材を読み直す」を押します。</p>
+    <ul id="art-files" aria-label="シーン別の素材"></ul>
+    <p id="art-status" role="status">素材を確認しています…</p>
+  </div>
+  <button type="button" id="reload-art" disabled>素材を読み直す</button>
+</section>
+<section class="details"><div><h2>データを入れた状態で、配信の流れを確認</h2><p>2チーム・10選手・チャンピオン・BAN・KDA・ゴールド・ダメージを設定済み。各シーンを選択するか、自動再生で12秒ごとに切り替えられます。</p></div><div class="links"><a href="/?demo=1">試験データを編集 ↗</a><a href="/overlay?demo=1" target="_blank" rel="noopener">OBS用の試験表示 ↗</a><a href="/demo/sample" download="lol-overlay-demo.json">サンプルJSONを保存 ↓</a><a href="/">本番操作画面へ</a></div></section>
+<section class="flow"><span>実際のゲーム画面</span><b>→</b><span>ローカルOCR・確認</span><b>→</b><span>大会配信を目指したオーバーレイ</span><small>保存した大会画像はデザイン参考です。デモの数値はOCRで取得したものではありません。</small></section></main></body></html>

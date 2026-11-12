@@ -1,0 +1,59 @@
+.control {
+  --publish-offset: 5rem;
+}
+.control #tabs,
+.control-editor input { scroll-margin-top: calc(var(--publish-offset) + 12px); }
+
+.control header { padding-block: 16px; }
+.control header h1 { margin: 0; }
+.control main { padding-top: 0; }
+.control .mode-banner { margin: 14px 0 0; }
+.control .publish-bar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 4px 12px;
+  min-height: var(--publish-offset);
+  margin: 0 0 20px;
+  padding: 10px 0;
+  background: #0c1017;
+  border-bottom: 1px solid #344055;
+}
+
+.broadcast-status { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; }
+.broadcast-status a { margin-right: 6px; }
+.control #message { grid-column: 1 / -1; margin: 0; min-height: 1.25em; }
+.control-workspace { display: grid; gap: 24px; grid-template-columns: minmax(0, 4fr) minmax(0, 5fr); }
+.control .monitor { position: sticky; top: calc(var(--publish-offset) + 12px); align-self: start; }
+.control .monitor h2 { font-size: 18px; margin-bottom: 10px; }
+#scene-picker { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; margin-top: 8px; }
+#scene-picker button { padding-inline: 4px; min-height: 42px; }
+#scene-picker button[aria-pressed="true"],
+#settings-menu button[aria-current="true"] { border-color: #c7f16b; color: #d9f4a9; }
+.control #tabs { margin: 0 0 8px; }
+.control #tabs button { padding: 12px; }
+#settings-menu { margin: 0 0 14px; }
+#settings-menu .button-row { margin: 0 0 8px; }
+.control-editor { min-width: 0; }
+.control-editor .panel { padding: 16px; }
+.control-editor .two-col { gap: 12px; }
+.control-editor .players { grid-template-columns: 1fr; }
+.control-editor .stats-row .stat-inputs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.control-editor .logo-upload { flex-wrap: wrap; gap: 8px; }
+.control-editor .logo-upload label { flex-basis: 100%; }
+
+@media (max-width: 1050px) {
+  .control-workspace { grid-template-columns: minmax(0, 1fr); }
+  .control .monitor { position: static; }
+  .control .preview-wrap { width: min(100%, 650px); }
+}
+
+@media (max-width: 530px) {
+  .control { --publish-offset: 6rem; }
+  .control header h1 { font-size: 24px; }
+  .control .publish-bar button { min-width: 0; padding-inline: 10px; }
+  .broadcast-status { font-size: 13px; }
+}

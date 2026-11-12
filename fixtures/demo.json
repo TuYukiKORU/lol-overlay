@@ -1,0 +1,178 @@
+{
+  "schema": 1,
+  "matchId": "demo-exhibition-001",
+  "scene": "result",
+  "teams": {
+    "a": {
+      "name": "AZURE FOX",
+      "logo": "",
+      "kills": 22,
+      "gold": 62500,
+      "players": [
+        {
+          "name": "Hoshino",
+          "champion": "Ornn",
+          "kills": 3,
+          "deaths": 2,
+          "assists": 12,
+          "damage": 18400
+        },
+        {
+          "name": "Aoi",
+          "champion": "Lee Sin",
+          "kills": 5,
+          "deaths": 3,
+          "assists": 10,
+          "damage": 15700
+        },
+        {
+          "name": "Mikage",
+          "champion": "Ahri",
+          "kills": 6,
+          "deaths": 2,
+          "assists": 9,
+          "damage": 28600
+        },
+        {
+          "name": "Nagi",
+          "champion": "Jinx",
+          "kills": 7,
+          "deaths": 3,
+          "assists": 8,
+          "damage": 32400
+        },
+        {
+          "name": "Rin",
+          "champion": "Nautilus",
+          "kills": 1,
+          "deaths": 4,
+          "assists": 17,
+          "damage": 8200
+        }
+      ],
+      "bans": [
+        "Yone",
+        "Zed",
+        "Kaisa",
+        "Rell",
+        "Renekton"
+      ]
+    },
+    "b": {
+      "name": "CRIMSON OWL",
+      "logo": "",
+      "kills": 14,
+      "gold": 56800,
+      "players": [
+        {
+          "name": "Akatsuki",
+          "champion": "Aatrox",
+          "kills": 4,
+          "deaths": 4,
+          "assists": 5,
+          "damage": 21300
+        },
+        {
+          "name": "Rai",
+          "champion": "Vi",
+          "kills": 3,
+          "deaths": 5,
+          "assists": 7,
+          "damage": 14600
+        },
+        {
+          "name": "Enma",
+          "champion": "Syndra",
+          "kills": 4,
+          "deaths": 4,
+          "assists": 6,
+          "damage": 25700
+        },
+        {
+          "name": "Towa",
+          "champion": "Ezreal",
+          "kills": 3,
+          "deaths": 3,
+          "assists": 7,
+          "damage": 24100
+        },
+        {
+          "name": "Sui",
+          "champion": "Leona",
+          "kills": 0,
+          "deaths": 6,
+          "assists": 10,
+          "damage": 6900
+        }
+      ],
+      "bans": [
+        "Azir",
+        "Kennen",
+        "Kalista",
+        "Wukong",
+        "Thresh"
+      ]
+    }
+  },
+  "sides": {
+    "blue": "a",
+    "red": "b"
+  },
+  "winner": "a",
+  "events": [
+    {
+      "id": "demo-event-0",
+      "team": "a",
+      "kind": "dragon"
+    },
+    {
+      "id": "demo-event-1",
+      "team": "b",
+      "kind": "dragon"
+    },
+    {
+      "id": "demo-event-2",
+      "team": "a",
+      "kind": "dragon"
+    },
+    {
+      "id": "demo-event-3",
+      "team": "a",
+      "kind": "dragon"
+    },
+    {
+      "id": "demo-event-4",
+      "team": "a",
+      "kind": "baron"
+    },
+    {
+      "id": "demo-event-5",
+      "team": "b",
+      "kind": "herald"
+    },
+    {
+      "id": "demo-event-6",
+      "team": "a",
+      "kind": "grubs"
+    }
+  ],
+  "cover": {
+    "visible": false,
+    "title": "次の試合を準備しています",
+    "subtitle": "EXHIBITION MATCH / PLEASE STAND BY"
+  },
+  "effect": null,
+  "damageLabel": "対チャンピオン総ダメージ",
+  "layout": {
+    "preset": "worlds",
+    "scoreX": 390,
+    "scoreY": 0,
+    "scoreWidth": 1140,
+    "effectX": 710,
+    "effectY": 124,
+    "draftRailWidth": 386,
+    "draftTopHeight": 200,
+    "draftBottomHeight": 228
+  },
+  "demo": true
+}

@@ -1,0 +1,460 @@
+[
+  {
+    "id": "game-spectator-1080",
+    "label": "ゲーム観戦・リプレイHUD（要位置調整）",
+    "scene": "game",
+    "calibrated": false,
+    "regions": [
+      {
+        "id": "blue-kills",
+        "side": "blue",
+        "field": "kills",
+        "kind": "integer",
+        "rect": [
+          880,
+          10,
+          55,
+          42
+        ],
+        "label": "blue キル"
+      },
+      {
+        "id": "blue-gold",
+        "side": "blue",
+        "field": "gold",
+        "kind": "amount",
+        "rect": [
+          730,
+          12,
+          95,
+          35
+        ],
+        "label": "blue ゴールド"
+      },
+      {
+        "id": "blue-kda-0",
+        "side": "blue",
+        "field": "players.0.kda",
+        "kind": "kda",
+        "rect": [
+          800,
+          860,
+          85,
+          30
+        ],
+        "label": "blue 選手1 KDA"
+      },
+      {
+        "id": "blue-kda-1",
+        "side": "blue",
+        "field": "players.1.kda",
+        "kind": "kda",
+        "rect": [
+          800,
+          902,
+          85,
+          30
+        ],
+        "label": "blue 選手2 KDA"
+      },
+      {
+        "id": "blue-kda-2",
+        "side": "blue",
+        "field": "players.2.kda",
+        "kind": "kda",
+        "rect": [
+          800,
+          944,
+          85,
+          30
+        ],
+        "label": "blue 選手3 KDA"
+      },
+      {
+        "id": "blue-kda-3",
+        "side": "blue",
+        "field": "players.3.kda",
+        "kind": "kda",
+        "rect": [
+          800,
+          986,
+          85,
+          30
+        ],
+        "label": "blue 選手4 KDA"
+      },
+      {
+        "id": "blue-kda-4",
+        "side": "blue",
+        "field": "players.4.kda",
+        "kind": "kda",
+        "rect": [
+          800,
+          1028,
+          85,
+          30
+        ],
+        "label": "blue 選手5 KDA"
+      },
+      {
+        "id": "red-kills",
+        "side": "red",
+        "field": "kills",
+        "kind": "integer",
+        "rect": [
+          1000,
+          10,
+          55,
+          42
+        ],
+        "label": "red キル"
+      },
+      {
+        "id": "red-gold",
+        "side": "red",
+        "field": "gold",
+        "kind": "amount",
+        "rect": [
+          1120,
+          12,
+          95,
+          35
+        ],
+        "label": "red ゴールド"
+      },
+      {
+        "id": "red-kda-0",
+        "side": "red",
+        "field": "players.0.kda",
+        "kind": "kda",
+        "rect": [
+          1060,
+          860,
+          85,
+          30
+        ],
+        "label": "red 選手1 KDA"
+      },
+      {
+        "id": "red-kda-1",
+        "side": "red",
+        "field": "players.1.kda",
+        "kind": "kda",
+        "rect": [
+          1060,
+          902,
+          85,
+          30
+        ],
+        "label": "red 選手2 KDA"
+      },
+      {
+        "id": "red-kda-2",
+        "side": "red",
+        "field": "players.2.kda",
+        "kind": "kda",
+        "rect": [
+          1060,
+          944,
+          85,
+          30
+        ],
+        "label": "red 選手3 KDA"
+      },
+      {
+        "id": "red-kda-3",
+        "side": "red",
+        "field": "players.3.kda",
+        "kind": "kda",
+        "rect": [
+          1060,
+          986,
+          85,
+          30
+        ],
+        "label": "red 選手4 KDA"
+      },
+      {
+        "id": "red-kda-4",
+        "side": "red",
+        "field": "players.4.kda",
+        "kind": "kda",
+        "rect": [
+          1060,
+          1028,
+          85,
+          30
+        ],
+        "label": "red 選手5 KDA"
+      }
+    ]
+  },
+  {
+    "id": "game-results-1080",
+    "label": "ゲーム終了後の個人スタッツ（要位置調整）",
+    "scene": "result",
+    "calibrated": false,
+    "regions": [
+      {
+        "id": "blue-kda-0",
+        "side": "blue",
+        "field": "players.0.kda",
+        "kind": "kda",
+        "rect": [
+          400,
+          350,
+          120,
+          35
+        ],
+        "label": "blue 選手1 KDA"
+      },
+      {
+        "id": "blue-damage-0",
+        "side": "blue",
+        "field": "players.0.damage",
+        "kind": "amount",
+        "rect": [
+          540,
+          350,
+          130,
+          35
+        ],
+        "label": "blue 選手1 ダメージ"
+      },
+      {
+        "id": "blue-kda-1",
+        "side": "blue",
+        "field": "players.1.kda",
+        "kind": "kda",
+        "rect": [
+          400,
+          445,
+          120,
+          35
+        ],
+        "label": "blue 選手2 KDA"
+      },
+      {
+        "id": "blue-damage-1",
+        "side": "blue",
+        "field": "players.1.damage",
+        "kind": "amount",
+        "rect": [
+          540,
+          445,
+          130,
+          35
+        ],
+        "label": "blue 選手2 ダメージ"
+      },
+      {
+        "id": "blue-kda-2",
+        "side": "blue",
+        "field": "players.2.kda",
+        "kind": "kda",
+        "rect": [
+          400,
+          540,
+          120,
+          35
+        ],
+        "label": "blue 選手3 KDA"
+      },
+      {
+        "id": "blue-damage-2",
+        "side": "blue",
+        "field": "players.2.damage",
+        "kind": "amount",
+        "rect": [
+          540,
+          540,
+          130,
+          35
+        ],
+        "label": "blue 選手3 ダメージ"
+      },
+      {
+        "id": "blue-kda-3",
+        "side": "blue",
+        "field": "players.3.kda",
+        "kind": "kda",
+        "rect": [
+          400,
+          635,
+          120,
+          35
+        ],
+        "label": "blue 選手4 KDA"
+      },
+      {
+        "id": "blue-damage-3",
+        "side": "blue",
+        "field": "players.3.damage",
+        "kind": "amount",
+        "rect": [
+          540,
+          635,
+          130,
+          35
+        ],
+        "label": "blue 選手4 ダメージ"
+      },
+      {
+        "id": "blue-kda-4",
+        "side": "blue",
+        "field": "players.4.kda",
+        "kind": "kda",
+        "rect": [
+          400,
+          730,
+          120,
+          35
+        ],
+        "label": "blue 選手5 KDA"
+      },
+      {
+        "id": "blue-damage-4",
+        "side": "blue",
+        "field": "players.4.damage",
+        "kind": "amount",
+        "rect": [
+          540,
+          730,
+          130,
+          35
+        ],
+        "label": "blue 選手5 ダメージ"
+      },
+      {
+        "id": "red-kda-0",
+        "side": "red",
+        "field": "players.0.kda",
+        "kind": "kda",
+        "rect": [
+          1280,
+          350,
+          120,
+          35
+        ],
+        "label": "red 選手1 KDA"
+      },
+      {
+        "id": "red-damage-0",
+        "side": "red",
+        "field": "players.0.damage",
+        "kind": "amount",
+        "rect": [
+          1420,
+          350,
+          130,
+          35
+        ],
+        "label": "red 選手1 ダメージ"
+      },
+      {
+        "id": "red-kda-1",
+        "side": "red",
+        "field": "players.1.kda",
+        "kind": "kda",
+        "rect": [
+          1280,
+          445,
+          120,
+          35
+        ],
+        "label": "red 選手2 KDA"
+      },
+      {
+        "id": "red-damage-1",
+        "side": "red",
+        "field": "players.1.damage",
+        "kind": "amount",
+        "rect": [
+          1420,
+          445,
+          130,
+          35
+        ],
+        "label": "red 選手2 ダメージ"
+      },
+      {
+        "id": "red-kda-2",
+        "side": "red",
+        "field": "players.2.kda",
+        "kind": "kda",
+        "rect": [
+          1280,
+          540,
+          120,
+          35
+        ],
+        "label": "red 選手3 KDA"
+      },
+      {
+        "id": "red-damage-2",
+        "side": "red",
+        "field": "players.2.damage",
+        "kind": "amount",
+        "rect": [
+          1420,
+          540,
+          130,
+          35
+        ],
+        "label": "red 選手3 ダメージ"
+      },
+      {
+        "id": "red-kda-3",
+        "side": "red",
+        "field": "players.3.kda",
+        "kind": "kda",
+        "rect": [
+          1280,
+          635,
+          120,
+          35
+        ],
+        "label": "red 選手4 KDA"
+      },
+      {
+        "id": "red-damage-3",
+        "side": "red",
+        "field": "players.3.damage",
+        "kind": "amount",
+        "rect": [
+          1420,
+          635,
+          130,
+          35
+        ],
+        "label": "red 選手4 ダメージ"
+      },
+      {
+        "id": "red-kda-4",
+        "side": "red",
+        "field": "players.4.kda",
+        "kind": "kda",
+        "rect": [
+          1280,
+          730,
+          120,
+          35
+        ],
+        "label": "red 選手5 KDA"
+      },
+      {
+        "id": "red-damage-4",
+        "side": "red",
+        "field": "players.4.damage",
+        "kind": "amount",
+        "rect": [
+          1420,
+          730,
+          130,
+          35
+        ],
+        "label": "red 選手5 ダメージ"
+      }
+    ]
+  }
+]

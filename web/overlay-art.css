@@ -1,0 +1,38 @@
+.output .has-art { isolation: isolate; }
+.output .scene-art {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.output .score-strip.has-art { overflow: hidden; }
+.output .score-strip.has-art .scene-art {
+  top: calc(-1 * var(--scoreY));
+  left: calc(-1px - var(--scoreX));
+}
+.output .score-strip.has-art .score-middle { background: transparent; }
+
+.output .layout-worlds .champion-draft .scene-art {
+  --camera-right: calc(100% - var(--draftRailWidth));
+  --camera-bottom: calc(100% - var(--draftBottomHeight));
+  clip-path: polygon(evenodd,
+    0 0, 100% 0, 100% 100%, 0 100%, 0 0,
+    var(--draftRailWidth) var(--draftTopHeight),
+    var(--camera-right) var(--draftTopHeight),
+    var(--camera-right) var(--camera-bottom),
+    var(--draftRailWidth) var(--camera-bottom),
+    var(--draftRailWidth) var(--draftTopHeight)
+  );
+}
+
+.output .champion-draft.has-art .pick,
+.output .champion-draft.has-art .bans,
+.output .layout-worlds .champion-draft.has-art > .scene-title,
+.output .layout-worlds .champion-draft.has-art::after,
+.output .layout-worlds .champion-draft.has-art .draft-team {
+  background: transparent;
+}

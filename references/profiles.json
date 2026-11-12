@@ -1,0 +1,778 @@
+[
+  {
+    "id": "worlds2018-game",
+    "label": "Worlds 2018 決勝 / FNC vs IG / 試合中",
+    "scene": "game",
+    "image": "/references/worlds2018-game.jpg",
+    "regions": [
+      {
+        "id": "blue-kills",
+        "side": "blue",
+        "field": "kills",
+        "kind": "integer",
+        "rect": [
+          915,
+          20,
+          39,
+          38
+        ],
+        "label": "blue キル"
+      },
+      {
+        "id": "blue-gold",
+        "side": "blue",
+        "field": "gold",
+        "kind": "amount",
+        "rect": [
+          753,
+          15,
+          65,
+          31
+        ],
+        "label": "blue ゴールド"
+      },
+      {
+        "id": "blue-kda-0",
+        "side": "blue",
+        "field": "players.0.kda",
+        "kind": "kda",
+        "rect": [
+          808,
+          866,
+          60,
+          26
+        ],
+        "label": "blue 選手1 KDA"
+      },
+      {
+        "id": "blue-kda-1",
+        "side": "blue",
+        "field": "players.1.kda",
+        "kind": "kda",
+        "rect": [
+          808,
+          910,
+          60,
+          26
+        ],
+        "label": "blue 選手2 KDA"
+      },
+      {
+        "id": "blue-kda-2",
+        "side": "blue",
+        "field": "players.2.kda",
+        "kind": "kda",
+        "rect": [
+          808,
+          954,
+          60,
+          26
+        ],
+        "label": "blue 選手3 KDA"
+      },
+      {
+        "id": "blue-kda-3",
+        "side": "blue",
+        "field": "players.3.kda",
+        "kind": "kda",
+        "rect": [
+          808,
+          998,
+          60,
+          26
+        ],
+        "label": "blue 選手4 KDA"
+      },
+      {
+        "id": "blue-kda-4",
+        "side": "blue",
+        "field": "players.4.kda",
+        "kind": "kda",
+        "rect": [
+          808,
+          1042,
+          60,
+          26
+        ],
+        "label": "blue 選手5 KDA"
+      },
+      {
+        "id": "red-kills",
+        "side": "red",
+        "field": "kills",
+        "kind": "integer",
+        "rect": [
+          980,
+          20,
+          64,
+          38
+        ],
+        "label": "red キル"
+      },
+      {
+        "id": "red-gold",
+        "side": "red",
+        "field": "gold",
+        "kind": "amount",
+        "rect": [
+          1135,
+          15,
+          75,
+          31
+        ],
+        "label": "red ゴールド"
+      },
+      {
+        "id": "red-kda-0",
+        "side": "red",
+        "field": "players.0.kda",
+        "kind": "kda",
+        "rect": [
+          1060,
+          866,
+          85,
+          26
+        ],
+        "label": "red 選手1 KDA"
+      },
+      {
+        "id": "red-kda-1",
+        "side": "red",
+        "field": "players.1.kda",
+        "kind": "kda",
+        "rect": [
+          1060,
+          910,
+          85,
+          26
+        ],
+        "label": "red 選手2 KDA"
+      },
+      {
+        "id": "red-kda-2",
+        "side": "red",
+        "field": "players.2.kda",
+        "kind": "kda",
+        "rect": [
+          1060,
+          954,
+          85,
+          26
+        ],
+        "label": "red 選手3 KDA"
+      },
+      {
+        "id": "red-kda-3",
+        "side": "red",
+        "field": "players.3.kda",
+        "kind": "kda",
+        "rect": [
+          1060,
+          998,
+          85,
+          26
+        ],
+        "label": "red 選手4 KDA"
+      },
+      {
+        "id": "red-kda-4",
+        "side": "red",
+        "field": "players.4.kda",
+        "kind": "kda",
+        "rect": [
+          1060,
+          1042,
+          85,
+          26
+        ],
+        "label": "red 選手5 KDA"
+      }
+    ],
+    "sourcePage": "https://www.reddit.com/r/leagueoflegends/comments/9tszu7/fnatic_vs_invictus_gaming_2018_world_championship/",
+    "sourceImage": "https://i.imgur.com/Fq9FcEG.jpg",
+    "savedAt": "2026-09-18",
+    "sha256": "edab7ac7f991b8095ee2194c4783336d2b6071ff9714bdfa5aa9150dcb8127a2"
+  },
+  {
+    "id": "worlds2018-draft",
+    "label": "Worlds 2018 準決勝 / IG vs G2 / BAN・PICK",
+    "scene": "draft",
+    "image": "/references/worlds2018-draft.jpg",
+    "regions": [
+      {
+        "id": "blue-name",
+        "side": "blue",
+        "field": "name",
+        "kind": "text",
+        "rect": [
+          246,
+          40,
+          390,
+          70
+        ],
+        "label": "blue チーム名"
+      },
+      {
+        "id": "blue-player-0",
+        "side": "blue",
+        "field": "players.0.name",
+        "kind": "text",
+        "rect": [
+          245,
+          286,
+          120,
+          27
+        ],
+        "label": "blue 選手1 名前"
+      },
+      {
+        "id": "blue-player-1",
+        "side": "blue",
+        "field": "players.1.name",
+        "kind": "text",
+        "rect": [
+          270,
+          412,
+          97,
+          27
+        ],
+        "label": "blue 選手2 名前"
+      },
+      {
+        "id": "blue-player-2",
+        "side": "blue",
+        "field": "players.2.name",
+        "kind": "text",
+        "rect": [
+          240,
+          539,
+          128,
+          27
+        ],
+        "label": "blue 選手3 名前"
+      },
+      {
+        "id": "blue-player-3",
+        "side": "blue",
+        "field": "players.3.name",
+        "kind": "text",
+        "rect": [
+          192,
+          691,
+          177,
+          27
+        ],
+        "label": "blue 選手4 名前"
+      },
+      {
+        "id": "blue-player-4",
+        "side": "blue",
+        "field": "players.4.name",
+        "kind": "text",
+        "rect": [
+          246,
+          817,
+          123,
+          27
+        ],
+        "label": "blue 選手5 名前"
+      },
+      {
+        "id": "red-name",
+        "side": "red",
+        "field": "name",
+        "kind": "text",
+        "rect": [
+          1320,
+          40,
+          340,
+          70
+        ],
+        "label": "red チーム名"
+      },
+      {
+        "id": "red-player-0",
+        "side": "red",
+        "field": "players.0.name",
+        "kind": "text",
+        "rect": [
+          1555,
+          286,
+          260,
+          27
+        ],
+        "label": "red 選手1 名前"
+      },
+      {
+        "id": "red-player-1",
+        "side": "red",
+        "field": "players.1.name",
+        "kind": "text",
+        "rect": [
+          1555,
+          412,
+          260,
+          27
+        ],
+        "label": "red 選手2 名前"
+      },
+      {
+        "id": "red-player-2",
+        "side": "red",
+        "field": "players.2.name",
+        "kind": "text",
+        "rect": [
+          1555,
+          539,
+          260,
+          27
+        ],
+        "label": "red 選手3 名前"
+      },
+      {
+        "id": "red-player-3",
+        "side": "red",
+        "field": "players.3.name",
+        "kind": "text",
+        "rect": [
+          1555,
+          691,
+          260,
+          27
+        ],
+        "label": "red 選手4 名前"
+      },
+      {
+        "id": "red-player-4",
+        "side": "red",
+        "field": "players.4.name",
+        "kind": "text",
+        "rect": [
+          1555,
+          817,
+          260,
+          27
+        ],
+        "label": "red 選手5 名前"
+      }
+    ],
+    "sourcePage": "https://ol.3dmgame.com/esports/10437.html",
+    "sourceImage": "https://ol.3dmgame.com/uploads/images/gamenews/20181027/1540636170_301080.jpg",
+    "savedAt": "2026-09-18",
+    "sha256": "ba2d4f2727751600c33a68ae6d917859ed16eaa2923d2c1a93039f09bd8afba3"
+  },
+  {
+    "id": "worlds2024-result",
+    "label": "Worlds 2024 スイス / BLG vs T1 / 終了後（推奨）",
+    "scene": "result",
+    "image": "/references/worlds2024-result.png",
+    "regions": [
+      {
+        "id": "blue-gold",
+        "side": "blue",
+        "field": "gold",
+        "kind": "amount",
+        "rect": [
+          1130,
+          327,
+          100,
+          33
+        ],
+        "label": "blue 最終ゴールド"
+      },
+      {
+        "id": "blue-kills",
+        "side": "blue",
+        "field": "kills",
+        "kind": "team_kda",
+        "rect": [
+          1105,
+          283,
+          140,
+          35
+        ],
+        "label": "blue チームKDAのキル数"
+      },
+      {
+        "id": "blue-damage-0",
+        "side": "blue",
+        "field": "players.0.damage",
+        "kind": "amount",
+        "rect": [
+          278,
+          344,
+          54,
+          19
+        ],
+        "label": "blue 選手1 対チャンピオンダメージ"
+      },
+      {
+        "id": "blue-damage-1",
+        "side": "blue",
+        "field": "players.1.damage",
+        "kind": "amount",
+        "rect": [
+          278,
+          398,
+          54,
+          19
+        ],
+        "label": "blue 選手2 対チャンピオンダメージ"
+      },
+      {
+        "id": "blue-damage-2",
+        "side": "blue",
+        "field": "players.2.damage",
+        "kind": "amount",
+        "rect": [
+          278,
+          452,
+          54,
+          19
+        ],
+        "label": "blue 選手3 対チャンピオンダメージ"
+      },
+      {
+        "id": "blue-damage-3",
+        "side": "blue",
+        "field": "players.3.damage",
+        "kind": "amount",
+        "rect": [
+          278,
+          506,
+          54,
+          19
+        ],
+        "label": "blue 選手4 対チャンピオンダメージ"
+      },
+      {
+        "id": "blue-damage-4",
+        "side": "blue",
+        "field": "players.4.damage",
+        "kind": "amount",
+        "rect": [
+          278,
+          560,
+          54,
+          19
+        ],
+        "label": "blue 選手5 対チャンピオンダメージ"
+      },
+      {
+        "id": "red-gold",
+        "side": "red",
+        "field": "gold",
+        "kind": "amount",
+        "rect": [
+          1556,
+          327,
+          100,
+          33
+        ],
+        "label": "red 最終ゴールド"
+      },
+      {
+        "id": "red-kills",
+        "side": "red",
+        "field": "kills",
+        "kind": "team_kda",
+        "rect": [
+          1535,
+          283,
+          140,
+          35
+        ],
+        "label": "red チームKDAのキル数"
+      },
+      {
+        "id": "red-damage-0",
+        "side": "red",
+        "field": "players.0.damage",
+        "kind": "amount",
+        "rect": [
+          714,
+          344,
+          54,
+          19
+        ],
+        "label": "red 選手1 対チャンピオンダメージ"
+      },
+      {
+        "id": "red-damage-1",
+        "side": "red",
+        "field": "players.1.damage",
+        "kind": "amount",
+        "rect": [
+          714,
+          398,
+          54,
+          19
+        ],
+        "label": "red 選手2 対チャンピオンダメージ"
+      },
+      {
+        "id": "red-damage-2",
+        "side": "red",
+        "field": "players.2.damage",
+        "kind": "amount",
+        "rect": [
+          714,
+          452,
+          54,
+          19
+        ],
+        "label": "red 選手3 対チャンピオンダメージ"
+      },
+      {
+        "id": "red-damage-3",
+        "side": "red",
+        "field": "players.3.damage",
+        "kind": "amount",
+        "rect": [
+          714,
+          506,
+          54,
+          19
+        ],
+        "label": "red 選手4 対チャンピオンダメージ"
+      },
+      {
+        "id": "red-damage-4",
+        "side": "red",
+        "field": "players.4.damage",
+        "kind": "amount",
+        "rect": [
+          714,
+          560,
+          54,
+          19
+        ],
+        "label": "red 選手5 対チャンピオンダメージ"
+      },
+      {
+        "id": "red-winner",
+        "side": "red",
+        "field": "winner",
+        "kind": "winner",
+        "rect": [
+          1510,
+          152,
+          173,
+          93
+        ],
+        "label": "red 勝利表記"
+      }
+    ],
+    "sourcePage": "https://www.reddit.com/r/leagueoflegends/comments/1fxgmd2/bilibili_gaming_vs_t1_2024_world_championship/",
+    "sourceImage": "https://i.imgur.com/WJlrn6d.png",
+    "savedAt": "2026-09-18",
+    "sha256": "7af03e90115da5eef7858bc8fd655efbd0bfa276555698635e14586b6f1f6a8c"
+  },
+  {
+    "id": "worlds2023-result",
+    "label": "Worlds 2023 決勝 / WBG vs T1 / 終了後",
+    "scene": "result",
+    "image": "/references/worlds2023-result.png",
+    "regions": [
+      {
+        "id": "blue-gold",
+        "side": "blue",
+        "field": "gold",
+        "kind": "amount",
+        "rect": [
+          1125,
+          365,
+          115,
+          35
+        ],
+        "label": "blue 最終ゴールド"
+      },
+      {
+        "id": "blue-kills",
+        "side": "blue",
+        "field": "kills",
+        "kind": "team_kda",
+        "rect": [
+          1115,
+          322,
+          140,
+          34
+        ],
+        "label": "blue チームKDAのキル数"
+      },
+      {
+        "id": "blue-damage-0",
+        "side": "blue",
+        "field": "players.0.damage",
+        "kind": "amount",
+        "rect": [
+          280,
+          380,
+          48,
+          17
+        ],
+        "label": "blue 選手1 対チャンピオンダメージ"
+      },
+      {
+        "id": "blue-damage-1",
+        "side": "blue",
+        "field": "players.1.damage",
+        "kind": "amount",
+        "rect": [
+          280,
+          434,
+          48,
+          17
+        ],
+        "label": "blue 選手2 対チャンピオンダメージ"
+      },
+      {
+        "id": "blue-damage-2",
+        "side": "blue",
+        "field": "players.2.damage",
+        "kind": "amount",
+        "rect": [
+          280,
+          488,
+          48,
+          17
+        ],
+        "label": "blue 選手3 対チャンピオンダメージ"
+      },
+      {
+        "id": "blue-damage-3",
+        "side": "blue",
+        "field": "players.3.damage",
+        "kind": "amount",
+        "rect": [
+          280,
+          542,
+          48,
+          17
+        ],
+        "label": "blue 選手4 対チャンピオンダメージ"
+      },
+      {
+        "id": "blue-damage-4",
+        "side": "blue",
+        "field": "players.4.damage",
+        "kind": "amount",
+        "rect": [
+          280,
+          596,
+          48,
+          17
+        ],
+        "label": "blue 選手5 対チャンピオンダメージ"
+      },
+      {
+        "id": "red-gold",
+        "side": "red",
+        "field": "gold",
+        "kind": "amount",
+        "rect": [
+          1545,
+          365,
+          115,
+          35
+        ],
+        "label": "red 最終ゴールド"
+      },
+      {
+        "id": "red-kills",
+        "side": "red",
+        "field": "kills",
+        "kind": "team_kda",
+        "rect": [
+          1538,
+          322,
+          140,
+          34
+        ],
+        "label": "red チームKDAのキル数"
+      },
+      {
+        "id": "red-damage-0",
+        "side": "red",
+        "field": "players.0.damage",
+        "kind": "amount",
+        "rect": [
+          708,
+          380,
+          56,
+          17
+        ],
+        "label": "red 選手1 対チャンピオンダメージ"
+      },
+      {
+        "id": "red-damage-1",
+        "side": "red",
+        "field": "players.1.damage",
+        "kind": "amount",
+        "rect": [
+          708,
+          434,
+          56,
+          17
+        ],
+        "label": "red 選手2 対チャンピオンダメージ"
+      },
+      {
+        "id": "red-damage-2",
+        "side": "red",
+        "field": "players.2.damage",
+        "kind": "amount",
+        "rect": [
+          708,
+          488,
+          56,
+          17
+        ],
+        "label": "red 選手3 対チャンピオンダメージ"
+      },
+      {
+        "id": "red-damage-3",
+        "side": "red",
+        "field": "players.3.damage",
+        "kind": "amount",
+        "rect": [
+          708,
+          542,
+          56,
+          17
+        ],
+        "label": "red 選手4 対チャンピオンダメージ"
+      },
+      {
+        "id": "red-damage-4",
+        "side": "red",
+        "field": "players.4.damage",
+        "kind": "amount",
+        "rect": [
+          708,
+          596,
+          56,
+          17
+        ],
+        "label": "red 選手5 対チャンピオンダメージ"
+      },
+      {
+        "id": "red-winner",
+        "side": "red",
+        "field": "winner",
+        "kind": "winner",
+        "rect": [
+          1510,
+          183,
+          173,
+          91
+        ],
+        "label": "red 勝利表記"
+      }
+    ],
+    "sourcePage": "https://www.reddit.com/r/leagueoflegends/comments/17yux8f/weibo_gaming_vs_t1_2023_world_championship_final/",
+    "sourceImage": "https://i.imgur.com/DjrYjua.png",
+    "savedAt": "2026-09-18",
+    "sha256": "2f2b817c58eb886508b3b9d70a93933b0537fe42d42e28daeea764ded4e09882"
+  }
+]
